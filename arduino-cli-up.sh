@@ -7,3 +7,6 @@ fi
 
 ./bin/arduino-cli core update-index --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
 ./bin/arduino-cli core install esp32:esp32@3.3.3 
+
+./bin/arduino-cli lib install "Adafruit NeoPixel"
+./bin/arduino-cli lib install "AMY Synthesizer"
